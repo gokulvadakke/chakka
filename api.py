@@ -70,5 +70,5 @@ def api_global():
     data = r.json()
     return jsonify(data['Global'])
 
-app.run()
+app.run(host= '0.0.0.0')
 
